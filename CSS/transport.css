@@ -1,0 +1,143 @@
+body{
+	background-position: center;
+	font-family: 'Lato', sans-serif;
+}
+.nav{
+    padding-right:4%;
+}
+p{
+    line-height:30%;
+}
+h2{
+	font-size:3em;
+	color: #187738;
+	padding-bottom:3%;
+}
+#content{
+    font-family: 'PT Serif', serif;
+	text-align:center;
+	padding-top:5%;
+    padding-bottom:15%;
+    max-width:100%;
+    border: 20px;
+    padding: 50px;
+    width:100%;
+    margin:20px center;
+}
+
+#content p{
+	line-height:1em;
+}
+hr{
+	width:70%;
+	border-top:1px solid #080808;
+	border-bottom: 1px rgba(0,0,0,2);
+}
+
+table{
+	border:10%;
+	width:60%;
+	max-width:100%;
+}
+#servicetitle{
+	font-family: 'Noto Sans JP', sans-serif;
+	color: #187738;
+	font-size:2em;
+	text-align: left;
+	padding-bottom:15px;
+}
+#pet{
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: left;
+	font-weight:bold;
+}
+td
+{
+	text-align:right;
+}
+h2{
+	font-size:3em;
+	color: #187738;
+	padding-bottom:3%;
+}
+span
+{
+    font-weight: bold;
+}
+#tac
+{
+	box-align: center;
+	text-align:left;
+    padding-top:5%;
+    padding-bottom:5%;
+    width:60%;
+	max-width:100%;
+    line-height: 1.5em;
+    padding-left: 20%;
+    margin:20px center;
+}
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	text-align: right;
+    width: 100%;
+    padding-right:5%;
+    padding-top:5%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 1em;
+	color:  #13161a;
+    font-weight: normal;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #991515;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 1px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 5px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #ffffff;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #3a3a3a;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+}
